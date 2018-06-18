@@ -1,0 +1,43 @@
+@import '../unit/index.sass'
+.main-home
+  width: 100%
+  .title-bar
+    width: 100%
+    margin-top: 30px
+  .top-box
+    width: 100%
+    display: flex
+    margin-top: 20px
+    @media screen and (max-width: $media-size-ipad)
+      flex-wrap: wrap
+    .sub-block
+      width: 300px
+      &:nth-child(2)
+        margin: 0px 20px
+      @media screen and (max-width: $media-size-ipad)
+        width: 100%
+        &:nth-child(2)
+          margin: 8px 0px     
+      i
+        margin-right: 8px
+      .table-information
+        font-weight: bold
+      .number
+        font-weight: bold
+        font-size: 36px
+        margin-top: 16px
+        &.blue
+          color: $color-blue
+        &.red
+          color: $color-red
+        &.yellow
+          color: $color-yellow
+  .middle-box
+    width: 100%
+    margin-top: 20px
+  .bottom-box
+    width: 100%
+    display: flex
+    margin-top: 20px
+    @media screen and (max-width: $media-size-ipad)
+      flex-wrap: wrap

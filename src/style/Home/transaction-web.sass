@@ -1,0 +1,50 @@
+@import '../unit/index.sass'
+
+.transaction-Web
+  width: 50%
+  margin-right: 20px
+  @media screen and (max-width: $media-size-ipad)
+    width: 100%
+    margin: 0
+  .sub-block
+    width: 100%
+    min-height: 456px
+    align-items: flex-start
+    .title
+      margin-bottom: 30px
+    hr
+      margin: 24px 0px
+      width: 100%
+      height: 1px
+      background-color: $color-light-gray
+    .web-site
+      width: 100%
+      display: flex
+      align-items: center
+      .image-box
+        width: 45px
+        height: 45px
+        margin-right: 20px
+        img
+          width: 100%
+      .url-name
+        font-size: 16px
+        color: $color-gray
+      .number
+        font-size: 20px
+        font-weight: bold
+        margin-left: auto
+        margin-right: 20px
+      .degree
+        font-size: 16px
+        font-weight: bold
+        &.bad
+          color: $color-red
+        &.good
+          color: $color-green
+        i
+          font-size: 18px
+          font-weight: bold
+          margin-right: 8px
+        
+    
