@@ -1,0 +1,57 @@
+@import '../unit/index.sass'
+
+.main-order
+  .unit-tools
+    width: 100%
+    display: flex
+    align-items: center
+    justify-content: space-between
+    margin: 16px 0px
+    .left,.right
+      display: flex
+      i
+        margin-left: 8px
+    .right
+      select
+        background-color: inherit
+        outline: none
+        border: none
+        font-size: 14px
+        font-weight: bold
+        appearance: none
+  .table-responsive
+    width: 100%
+    .table-striped > tbody > tr:nth-of-type(odd) 
+      background-color: inherit
+    .table-striped > tbody > tr:nth-of-type(even) 
+      background-color: #EBEBEB
+    .table.table-striped
+      thead
+        background-color: white
+        th
+          font-weight: bold
+          font-size: 16px
+          text-align: left
+          border: none
+      tbody
+        tr td
+          border: none
+          font-size: 14px
+          .product
+            display: flex
+            flex-direction: column
+            width: 100%
+            padding: 8px 0px
+            hr
+              margin: 8px 0px 0px 0px
+              width: 100%
+              height: 1px
+              background-color: white
+            .product-price-quantity
+              margin-top: 4px
+              display: flex
+              justify-content: space-between
+              .price
+                color: $color-gray
+
+

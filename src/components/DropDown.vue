@@ -24,7 +24,7 @@ export default {
         {id: 2, name: 'Shopping', color: "#F5A623"},
         {id: 3, name: 'Done', color: "#4A90E2"},
       ],
-      isOpenlist: true
+      isOpenlist: false
     }
   },
   methods: {
@@ -42,6 +42,7 @@ export default {
 .drop-down
   .select-list
     box-shadow: 1px 2px 10px 0 #9B9B9B
+    background-color: white
     margin-top: 8px
     position: absolute
     top: 32px

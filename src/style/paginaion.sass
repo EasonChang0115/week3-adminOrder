@@ -1,0 +1,27 @@
+@import './unit/index.sass'
+
+#pagination
+  width: 100%
+  ul
+    display: flex
+    width: 100%
+    justify-content: flex-end
+    li > a
+      width: 40px
+      height: 40px
+      background-color: white
+      font-size: 16px
+      color: black
+      display: flex
+      justify-content: center
+      align-items: center
+      border: 1px solid #ECEEEF
+      transition: .3s
+      cursor: pointer
+      &:hover
+        background-color: black
+        color: white
+    li.active > a
+      background-color: black
+      color: white
+      
